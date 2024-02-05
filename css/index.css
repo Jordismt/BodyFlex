@@ -1,0 +1,78 @@
+
+/*
+Estilos header pág index
+*/
+.index_body{
+    background-color: rgb(216, 230, 255);
+    color: rgb(22, 19, 226);
+}
+
+.index_logo{
+    width: 150px;
+    padding: auto;
+}
+
+.index_logo:hover{
+    width: 175px;
+}
+
+.index_header{
+    text-align: center;
+    
+}
+.index_header h1{
+    font-size: 50px;
+}
+
+.index_header h3{
+    font-size: 30px;
+}
+.index_links{
+    text-align: center;
+}
+
+.index_links a{
+    position: relative;
+    text-decoration: none;
+    padding: 15px;
+    margin: 25px;
+    color: rgb(22, 19, 226);
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+.index_nav_link:hover{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+.index_footer{
+    margin-top: 70%;
+    text-align: center;
+}
+
+.index_mail_img{
+    width: 50px;
+}
+.index_footer_p{
+   font-size: 20px;
+   text-decoration:underline;
+}
+
+.index_mail_img:hover{
+    width: 65px;
+    opacity: 0.5;
+}
+
+.index_telf_img{
+    width: 50px;
+}
+
+.index_telf_img:hover{
+    width: 65px;
+    opacity: 0.5;
+}
+
