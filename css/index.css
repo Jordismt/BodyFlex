@@ -1,3 +1,4 @@
+/* Estilos generales */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -13,6 +14,7 @@ body {
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
+/* Header */
 .index_header {
     background: linear-gradient(45deg, #3498db, #2c3e50);
     color: #fff;
@@ -47,6 +49,7 @@ body {
     box-shadow: 0 0 80px rgba(255, 255, 255, 0.8);
 }
 
+/* Navigation */
 .index_nav {
     background-color: #3498db;
     padding: 20px 0;
@@ -75,11 +78,13 @@ body {
     box-shadow: 0 0 40px rgba(255, 255, 255, 0.8);
 }
 
+/* Section */
 .index_section {
     text-align: center;
     padding: 80px 20px;
 }
 
+/* Information Section */
 .index_info {
     background: radial-gradient(circle at center, #ecf0f1 0%, #3498db 100%);
     padding: 60px;
@@ -104,6 +109,7 @@ body {
     color: #2c3e50;
 }
 
+/* Services Section */
 .index_services {
     background: linear-gradient(135deg, #3498db, #2c3e50);
     padding: 120px;
@@ -173,6 +179,7 @@ body {
     visibility: visible;
 }
 
+/* Footer */
 .index_footer {
     background: linear-gradient(45deg, #3498db, #2c3e50);
     color: #fff;
@@ -211,6 +218,7 @@ body {
     opacity: 0.8;
 }
 
+/* Footer Particles */
 .footer-particles {
     position: absolute;
     top: 0;
@@ -222,4 +230,66 @@ body {
 
 .footer-particles canvas {
     display: block;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+    }
+    
+    .index_logo {
+        margin-bottom: 20px;
+    }
+    
+    .index_nav_link {
+        margin: 10px;
+        font-size: 1.5em;
+    }
+    
+    .index_info h2 {
+        font-size: 3em;
+    }
+    
+    .index_info p {
+        font-size: 24px;
+    }
+    
+    .index_services h2 {
+        font-size: 4em;
+    }
+    
+    .service {
+        padding: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .service h3 {
+        font-size: 3.5em;
+        margin-bottom: 20px;
+    }
+    
+    .service p {
+        font-size: 24px;
+    }
+    
+    .index_footer {
+        padding: 100px 0;
+    }
+    
+    .index_footer_p {
+        font-size: 40px;
+    }
+    
+    .index_footer img {
+        width: 100px;
+        height: 100px;
+        margin: 0 20px;
+    }
+    
+    .index_mail_img,
+    .index_telf_img {
+        width: 120px;
+        height: 120px;
+    }
 }
