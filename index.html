@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,42 +8,74 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" href="./img/logo_web.jpeg">
 </head>
+
 <body class="index_body">
+    <!-- Header -->
     <header class="index_header">
-        <h1>CaliEssential</h1>
-        <img src="./img/logo_web.jpeg" class="index_logo">
-        <h3>Calistenia y mas !!</h3>
+        <div class="header-content">
+            <h1>CaliEssential</h1>
+            <img src="./img/logo_web.jpeg" alt="CaliEssential Logo" class="index_logo">
+            <h3>Calistenia y más !!</h3>
+        </div>
     </header>
-    <br>
-    <hr>
-    <br>
-    <nav>
+
+    <!-- Navigation -->
+    <nav class="index_nav">
         <div class="index_links">
-            <a href="#" class="index_nav_link">Servicios</a>
-            <a href="#" class="index_nav_link">Contactame</a>
+            <a href="#services" class="index_nav_link">Servicios</a>
+            <a href="#contact" class="index_nav_link">Contáctame</a>
         </div>
     </nav>
-    <br>
-    <hr>
-    <section class="index_section">
 
+    <!-- About Section -->
+    <section id="about" class="index_section">
+        <div class="index_info">
+            <h2>Sobre CaliEssential</h2>
+            <hr>
+            <p>¿Quieres empezar en el mundo de la Calistenia y el Street Workout? ¡Esta página es para ti!</p>
+            <p>En CaliEssential, nos comprometemos a ayudarte a ser tu mejor versión y a dominar la Calistenia como nunca antes.</p>
+            <p>¡No dudes en contactarnos a través de correo electrónico o nuestras redes sociales!</p>
+            <hr>
+            <p>Informamos y corregimos a nuestros clientes a través de Instagram. Te ofrecemos seguimiento cada dos semanas con garantía de cambios en 1 mes.</p>
+            <p><b>Recuerda, la constancia y disciplina son clave en el mundo fitness. Te ayudamos a incorporar hábitos saludables en tu día a día.</b></p>
+            <hr>
+        </div>
     </section>
-    
-    <footer class="index_footer">
-        <hr>
+
+    <!-- Services Section -->
+    <section id="services" class="index_section">
+        <h2>Servicios</h2>
+        <div class="index_services">
+            <div class="services-container">
+                <div class="service">
+                    <h3>Plan Nutricional</h3>
+                    <p>Adaptamos un plan nutricional personalizado y variado para que el camino de tu cambio sea más llevadero. <br><b> Precio: 35€ al mes.</b></p>
+                </div>
+                <div class="service">
+                    <h3>Plan de Entrenamiento</h3>
+                    <p>Adaptamos el mejor plan de entrenamiento personalizado para ti. <br><b>Precio: 20€ al mes.</b></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="index_footer" id="contact">
         <section>
-            <p class="index_footer_p">Contactame</p>
+            <hr>
+            <p class="index_footer_p">Contáctame</p>
             <br>
             <a href="mailto:jodocasol2002@gmail.com">
-                <img src="./img/img_mail.png" class="index_mail_img">
+                <img src="./img/img_mail.png" alt="Email" class="index_mail_img">
             </a>
             &emsp; &emsp; &emsp; &emsp;
             <a href="tel:620711972">
-                <img src="./img/img_telf.png" class="index_telf_img">
+                <img src="./img/img_telf.png" alt="Teléfono" class="index_telf_img">
             </a>
         </section>
         <br>
         <p>&copy; 2024 - CaliEssential</p>
     </footer>
 </body>
+
 </html>
