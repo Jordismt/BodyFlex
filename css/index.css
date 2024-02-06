@@ -205,14 +205,12 @@ body {
     text-decoration: underline;
 }
 
-.index_mail_img,
-.index_telf_img {
+.index_mail_img{
     width: 150px;
     height: 150px;
 }
 
-.index_mail_img:hover,
-.index_telf_img:hover {
+.index_mail_img:hover{
     width: 180px;
     height: 180px;
     opacity: 0.8;
@@ -369,8 +367,7 @@ body {
         margin: 0 20px;
     }
     
-    .index_mail_img,
-    .index_telf_img {
+    .index_mail_img {
         width: 120px;
         height: 120px;
     }
