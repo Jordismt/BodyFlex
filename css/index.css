@@ -218,18 +218,102 @@ body {
     opacity: 0.8;
 }
 
-/* Footer Particles */
-.footer-particles {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
+/* Animations */
+@keyframes glow {
+    0% {
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    }
+    100% {
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+    }
 }
 
-.footer-particles canvas {
-    display: block;
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Animations for Header */
+.glowing-text {
+    animation: glow 2s infinite alternate;
+}
+
+.floating-text {
+    animation: float 3s ease-in-out infinite;
+}
+
+/* Additional Animations */
+@keyframes scale-up {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(5px);
+    }
 }
 
 /* Estilos para dispositivos móviles */
